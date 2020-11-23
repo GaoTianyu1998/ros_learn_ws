@@ -7,8 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/gaotianyu/ros_learn_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/gaotianyu/ros_learn_ws/devel/lib:$LD_LIBRARY_PATH"
+export PATH='/opt/ros/melodic/bin:/opt/cmake-3.16.7/bin:/opt/gcc-arm-none-eabi-7-2017-q4-major/bin:/home/gaotianyu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/gaotianyu/ros_learn_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/gaotianyu/ros_learn_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/gaotianyu/ros_learn_ws/src:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH='/home/gaotianyu/ros_learn_ws/src:/home/gaotianyu/catkin_ws/src:/opt/ros/melodic/share'
